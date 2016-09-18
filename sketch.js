@@ -50,7 +50,7 @@ function draw() {
       // Rotate around center
       rotate(angle + 20 * i);
       
-      // Separate each circle by transforming them 30px away from each other
+      // Separate each set of circles by transforming them 30px away from each other
       translate(30, 30);
       
       // Don't fill the ellipse ahead so it is transparent
